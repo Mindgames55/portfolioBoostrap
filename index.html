@@ -140,16 +140,16 @@
 			<form method='post' action="form-to-email.php" class="container">
 					<div class="form-group row">
 						<label for="name"><i class="fa fa-user text-secondary col-2"></i> </label>
-						<input placeholder="Name" type="text" required="true" class="form-control col-10">
+						<input name="name" placeholder="Name" type="text" required="true" class="form-control col-10">
 					</div>
 					<div class="form-group row">
-						<label for="mail"><i class="fa fa-envelope text-secondary col-2"></i></label>
-						<input placeholder="E-mail" type="text" required="true" class="form-control col-10">
+						<label for="email"><i class="fa fa-envelope text-secondary col-2"></i></label>
+						<input name="email" placeholder="E-mail" type="text" required="true" class="form-control col-10">
 					</div>
 					<div class="form-group row">
-						<label for="msg"><i class="fa fa-pencil-square text-secondary col-2"></i>
+						<label for="message"><i class="fa fa-pencil-square text-secondary col-2"></i>
 						</label>
-						<textarea required="true" class="form-control col-10" placeholder="Leave a message"></textarea>
+						<textarea name="message" required="true" class="form-control col-10" placeholder="Leave a message"></textarea>
 					</div>
 					<button class="btn bg-secondary text-white" type="submit">Send your message</button>
 			</form>
